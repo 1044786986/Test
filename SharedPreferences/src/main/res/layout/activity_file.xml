@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:id="@+id/etFile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:text="写入并读取"
+        android:layout_gravity="center"
+        android:id="@+id/btFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/edit_bg"
+        android:id="@+id/tvFile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

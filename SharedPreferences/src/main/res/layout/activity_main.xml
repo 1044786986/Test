@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity">
+
+
+    <TextView
+        android:text="用户名"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tvUserName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@drawable/edit_bg"
+        android:id="@+id/etUserName"
+        android:layout_alignBaseline="@+id/tvUserName"
+        android:layout_toEndOf="@+id/tvUserName"
+        android:layout_marginStart="27dp" />
+
+    <TextView
+        android:text="密码"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvPassWord"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignStart="@+id/tvUserName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@drawable/edit_bg"
+        android:layout_alignTop="@+id/tvPassWord"
+        android:layout_alignStart="@+id/etUserName"
+        android:id="@+id/etPassWord" />
+
+    <CheckBox
+        android:text="保存帐号"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPassWord"
+        android:layout_alignStart="@+id/tvPassWord"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cbUserName" />
+
+    <CheckBox
+        android:text="记住密码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cbUserName"
+        android:layout_toEndOf="@+id/cbUserName"
+        android:layout_marginStart="20dp"
+        android:id="@+id/cbPassWord" />
+
+    <Button
+        android:text="登录"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbUserName"
+        android:layout_alignStart="@+id/cbUserName"
+        android:id="@+id/btLogin" />
+
+</RelativeLayout>

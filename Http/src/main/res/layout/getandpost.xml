@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="姓名"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:layout_marginStart="40dp"
+        android:id="@+id/etName"
+        android:layout_alignBaseline="@+id/tvName"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_toEndOf="@+id/tvName" />
+
+    <TextView
+        android:text="年龄"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvAge" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Age"
+        android:ems="10"
+        android:id="@+id/etAge"
+        android:layout_alignBaseline="@+id/tvAge"
+        android:layout_alignBottom="@+id/tvAge"
+        android:layout_alignStart="@+id/etName" />
+
+    <Button
+        android:text="确定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAge"
+        android:layout_alignStart="@+id/tvAge"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1" />
+
+</RelativeLayout>

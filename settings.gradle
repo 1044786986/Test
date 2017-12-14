@@ -1,0 +1,1 @@
+include ':app', ':counter', ':Layout_optimization', ':Fragment', ':BaseAdapter', ':AsyncTas', ':SharedPreferences', ':ContentProvider', ':Broadcast', ':Service', ':GestrueDetector', ':Handler', ':Http', ':Json', ':Volley', ':volley_jar', ':Gson', ':Neusoft', ':text'
