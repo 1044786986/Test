@@ -8,8 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private Button btGray;
     Intent intent;
     Intent intent1;
     BindService mybindService;
@@ -36,13 +38,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        btGray = (Button) findViewById(R.id.btGray);
+        btGray.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startService(new Intent(MainActivity.this,GrayService.class));
+            }
+        });
     }
 
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btStart:
-                intent = new Intent(MainActivity.this,StartService.class);
-                startService(intent);
+                intent = new Intent(MainActivity.this,ReceptionService.class);
+//                startService(intent);
+                startService(new Intent(MainActivity.this,StartService.class));
                 break;
             case R.id.btStop:
                 stopService(intent);

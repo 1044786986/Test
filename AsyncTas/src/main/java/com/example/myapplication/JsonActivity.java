@@ -17,10 +17,8 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.LoggingPermission;
 
 /**
  * Created by ljh on 2017/7/25.
@@ -96,6 +94,8 @@ public class JsonActivity extends Activity{
             while ( (line = bufferedReader.readLine()) != null){
                 result += line;
             }
+            inputStreamReader.close();
+            bufferedReader.close();
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (IOException e) {

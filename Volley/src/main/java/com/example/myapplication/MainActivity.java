@@ -1,23 +1,17 @@
 package com.example.myapplication;
 
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
@@ -38,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
                     public void onResponse(String s) {
                         Toast.makeText(MainActivity.this, s, Toast.LENGTH_LONG).show();
+                        Log.i("aaa",s);
 
                     }
                 },new Response.ErrorListener(){

@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     
     <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
@@ -14,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service android:name=".StartService"/>
         <service android:name=".BindService"/>
+        <service android:name=".ReceptionService"/>
+        <service android:name=".GrayService$MyGrayService"/>
 
         <activity android:name=".SystemServiceActivity">
             <intent-filter>
@@ -24,6 +29,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name="com.example.myapplication.broadcast.broadCastReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="android.hardware.action.NEW_PICTURE"/>
+            </intent-filter>
+            <intent-filter android:priority="100">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
 
     </application>
 

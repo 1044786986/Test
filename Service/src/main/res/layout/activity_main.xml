@@ -68,4 +68,10 @@
         android:id="@+id/btUnBind"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btGray"
+        android:text="灰色保活"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

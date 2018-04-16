@@ -149,6 +149,7 @@ public class ImageLoader{
             SetAsyncTask.remove(this);
         }
     }
+
     private Bitmap getBitmapFromUrl(String url){
         Bitmap bitmap = null;
         try {

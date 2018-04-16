@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -88,6 +87,10 @@ public class MainActivity extends Activity {
                 }
             }
         });
+    }
+    public void a(){
+//        List<Integer> list1 = new ArrayList<>();
+//        list1.add("舒勋");
     }
 
 

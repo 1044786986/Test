@@ -13,21 +13,28 @@
             <option value="$PROJECT_DIR$/BaseAdapter" />
             <option value="$PROJECT_DIR$/Broadcast" />
             <option value="$PROJECT_DIR$/ContentProvider" />
+            <option value="$PROJECT_DIR$/EventBus" />
             <option value="$PROJECT_DIR$/Fragment" />
             <option value="$PROJECT_DIR$/GestrueDetector" />
             <option value="$PROJECT_DIR$/Gson" />
             <option value="$PROJECT_DIR$/Handler" />
             <option value="$PROJECT_DIR$/Http" />
-            <option value="$PROJECT_DIR$/Json" />
             <option value="$PROJECT_DIR$/Layout_optimization" />
             <option value="$PROJECT_DIR$/Neusoft" />
             <option value="$PROJECT_DIR$/Service" />
             <option value="$PROJECT_DIR$/SharedPreferences" />
             <option value="$PROJECT_DIR$/Volley" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/callback" />
+            <option value="$PROJECT_DIR$/compress" />
             <option value="$PROJECT_DIR$/counter" />
-            <option value="$PROJECT_DIR$/text" />
-            <option value="$PROJECT_DIR$/volley_jar" />
+            <option value="$PROJECT_DIR$/floatmenu" />
+            <option value="$PROJECT_DIR$/java_reflex" />
+            <option value="$PROJECT_DIR$/loadimagecache" />
+            <option value="$PROJECT_DIR$/mvp" />
+            <option value="$PROJECT_DIR$/rxjava" />
+            <option value="$PROJECT_DIR$/service_live" />
+            <option value="$PROJECT_DIR$/threadpoolexecutor" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

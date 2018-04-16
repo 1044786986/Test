@@ -6,12 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/BaseAdapter/BaseAdapter.iml" filepath="$PROJECT_DIR$/BaseAdapter/BaseAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Broadcast/Broadcast.iml" filepath="$PROJECT_DIR$/Broadcast/Broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContentProvider/ContentProvider.iml" filepath="$PROJECT_DIR$/ContentProvider/ContentProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EventBus/EventBus.iml" filepath="$PROJECT_DIR$/EventBus/EventBus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fragment/Fragment.iml" filepath="$PROJECT_DIR$/Fragment/Fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/GestrueDetector/GestrueDetector.iml" filepath="$PROJECT_DIR$/GestrueDetector/GestrueDetector.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gson/Gson.iml" filepath="$PROJECT_DIR$/Gson/Gson.iml" />
       <module fileurl="file://$PROJECT_DIR$/Handler/Handler.iml" filepath="$PROJECT_DIR$/Handler/Handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/Http/Http.iml" filepath="$PROJECT_DIR$/Http/Http.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Json/Json.iml" filepath="$PROJECT_DIR$/Json/Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/Layout_optimization/Layout_optimization.iml" filepath="$PROJECT_DIR$/Layout_optimization/Layout_optimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/Neusoft/Neusoft.iml" filepath="$PROJECT_DIR$/Neusoft/Neusoft.iml" />
@@ -19,9 +19,16 @@
       <module fileurl="file://$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" filepath="$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/Volley/Volley.iml" filepath="$PROJECT_DIR$/Volley/Volley.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callback/callback.iml" filepath="$PROJECT_DIR$/callback/callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compress/compress.iml" filepath="$PROJECT_DIR$/compress/compress.iml" />
       <module fileurl="file://$PROJECT_DIR$/counter/counter.iml" filepath="$PROJECT_DIR$/counter/counter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/text/text.iml" filepath="$PROJECT_DIR$/text/text.iml" />
-      <module fileurl="file://$PROJECT_DIR$/volley_jar/volley_jar.iml" filepath="$PROJECT_DIR$/volley_jar/volley_jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatmenu/floatmenu.iml" filepath="$PROJECT_DIR$/floatmenu/floatmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_reflex/java_reflex.iml" filepath="$PROJECT_DIR$/java_reflex/java_reflex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadimagecache/loadimagecache.iml" filepath="$PROJECT_DIR$/loadimagecache/loadimagecache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_live/service_live.iml" filepath="$PROJECT_DIR$/service_live/service_live.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threadpoolexecutor/threadpoolexecutor.iml" filepath="$PROJECT_DIR$/threadpoolexecutor/threadpoolexecutor.iml" />
     </modules>
   </component>
 </project>
