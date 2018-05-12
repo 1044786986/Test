@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
 //        Log.i("aaa","onCreate");
         intent = new Intent(this,LiveService.class);
         startService(intent);
-        startService(new Intent(this,MyJobService.class));
-        startService(new Intent(this,NotificationListener.class));
+//        startService(new Intent(this,MyJobService.class));
+//        startService(new Intent(this,NotificationListener.class));
     }
 
     @Override

@@ -17,12 +17,12 @@ repositories {
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>权限
 并在APP运行时申请悬浮窗权限，否则有可能打不开子菜单
 
-3、应用程序下显示悬浮窗，context = this;
+3、应用程序下显示悬浮窗
 FloatMenu mFloatMenu = new FloatMenu.Builder()
                             .setFloatMenuItem(itemList)
                             .setFloatMenuLogo(mLogoBitmap)
                             .setFloatMenuOpenLogo(openLogo)
-                            .setContext(context)
+                            .setContext(this)
                             .setRotate(true)
                             .setTimer(true)
 			    .setHalf(true)
@@ -35,7 +35,7 @@ FloatMenu mFloatMenu = new FloatMenu.Builder()
 
 --------------------------------------------------------------------
 
-4、在桌面显示悬浮窗，新建一个服务，例如
+4、在桌面显示悬浮窗，需要新建服务类
 
 public class FloatLogoMenuService extends Service {
     public LocalBinder localBinder = new LocalBinder();
@@ -44,7 +44,7 @@ public class FloatLogoMenuService extends Service {
         public FloatLogoMenuService getService() {
             return FloatLogoMenuService.this;
         }
-------------------------------------------------------------
+--------------------------------------------------------------------
 AndroidManifest.xml下添加
 
 <application

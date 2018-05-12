@@ -36,6 +36,9 @@ public class BigImageView extends View{
     private int mInScreenX;
     private int mInScreenY;
     private int mPointCount;
+    private float cur_scale;
+    private final float MAX_SCALE = 2;
+    private final float MIN_SCALE = 1/2;
 
     private ScaleGestureDetector mScaleGestureDetector;
     private GestureDetector.SimpleOnGestureListener mGestureListener =
@@ -48,8 +51,6 @@ public class BigImageView extends View{
                     return true;
                 }
             };
-
-
 
     private OnTouchListener mOnTouchListener = new OnTouchListener() {
         @Override
@@ -196,8 +197,10 @@ public class BigImageView extends View{
 
         @Override
         public boolean onScaleBegin(ScaleGestureDetector detector) {
-            float scaleFactor = detector.getScaleFactor();
+//            if(mImageWidth)
+            float scaleFactor = (float) (detector.getScaleFactor() - 0.1);
             mMatrix.postScale(scaleFactor,scaleFactor,detector.getFocusX(),detector.getFocusY());
+            check();
             invalidate();
             Log.i("aaa","scaleFactor2 = " + scaleFactor);
             return false;

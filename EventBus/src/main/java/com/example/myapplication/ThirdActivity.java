@@ -15,9 +15,10 @@ public class ThirdActivity extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.i("aaa","ThirdActivity.onCreate()");
         setContentView(R.layout.activity_third);
         EventBus.getDefault().post(new MessageEvent("123"));
-        finish();
+//        finish();
     }
 
     @Override

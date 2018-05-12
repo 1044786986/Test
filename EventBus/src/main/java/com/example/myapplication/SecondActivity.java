@@ -22,13 +22,14 @@ public class SecondActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_secound);
+        EventBus.getDefault().register(this);
         btSend = findViewById(R.id.btSend);
         btSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 //                EventBus.getDefault().post(new MessageEvent("哈哈哈哈"));
 //                finish();
-                EventBus.getDefault().register(this);
+//                EventBus.getDefault().register(this);
                 startActivity(new Intent(SecondActivity.this,ThirdActivity.class));
             }
         });
@@ -42,7 +43,9 @@ public class SecondActivity extends AppCompatActivity{
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        EventBus.getDefault().unregister(this);
+        if(EventBus.getDefault().isRegistered(this)){
+            EventBus.getDefault().unregister(this);
+        }
         Log.i("aaa","SecondActivity.onDestroy()");
     }
 }

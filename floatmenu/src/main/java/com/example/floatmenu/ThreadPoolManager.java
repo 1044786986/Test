@@ -17,6 +17,11 @@ public class ThreadPoolManager {
     private TimeUnit timeUnit = TimeUnit.HOURS;
     private ThreadPoolExecutor threadPoolExecutor;
 
+    /**
+     * LinkedBlockingQueue<Runnable>() 缓冲队列，存放任务
+     * Executors.defaultThreadFactory() 创建线程工厂
+     * new ThreadPoolExecutor.AbortPolicy() 对超出线程数量的任务处理策略
+     */
     public ThreadPoolManager(){
         corePoolSize = Runtime.getRuntime().availableProcessors()*2+1;
         maxPoolSize = corePoolSize;

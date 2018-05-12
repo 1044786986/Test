@@ -23,9 +23,11 @@
       <module fileurl="file://$PROJECT_DIR$/compress/compress.iml" filepath="$PROJECT_DIR$/compress/compress.iml" />
       <module fileurl="file://$PROJECT_DIR$/counter/counter.iml" filepath="$PROJECT_DIR$/counter/counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/floatmenu/floatmenu.iml" filepath="$PROJECT_DIR$/floatmenu/floatmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance/instance.iml" filepath="$PROJECT_DIR$/instance/instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_reflex/java_reflex.iml" filepath="$PROJECT_DIR$/java_reflex/java_reflex.iml" />
       <module fileurl="file://$PROJECT_DIR$/loadimagecache/loadimagecache.iml" filepath="$PROJECT_DIR$/loadimagecache/loadimagecache.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/performance_optimization/performance_optimization.iml" filepath="$PROJECT_DIR$/performance_optimization/performance_optimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_live/service_live.iml" filepath="$PROJECT_DIR$/service_live/service_live.iml" />
       <module fileurl="file://$PROJECT_DIR$/threadpoolexecutor/threadpoolexecutor.iml" filepath="$PROJECT_DIR$/threadpoolexecutor/threadpoolexecutor.iml" />

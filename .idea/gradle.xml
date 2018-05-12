@@ -29,9 +29,11 @@
             <option value="$PROJECT_DIR$/compress" />
             <option value="$PROJECT_DIR$/counter" />
             <option value="$PROJECT_DIR$/floatmenu" />
+            <option value="$PROJECT_DIR$/instance" />
             <option value="$PROJECT_DIR$/java_reflex" />
             <option value="$PROJECT_DIR$/loadimagecache" />
             <option value="$PROJECT_DIR$/mvp" />
+            <option value="$PROJECT_DIR$/performance_optimization" />
             <option value="$PROJECT_DIR$/rxjava" />
             <option value="$PROJECT_DIR$/service_live" />
             <option value="$PROJECT_DIR$/threadpoolexecutor" />
